@@ -1,0 +1,294 @@
+body{
+    background-color: #3D087B;
+}
+
+.A{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.A1{
+    background-color: white;
+    list-style: none;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border-radius: 10px;
+    
+}
+
+.A2{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    
+}
+
+.A3{
+    position: relative;
+    left: 65px;
+    bottom: 1px;
+    font-size: 20px;
+}
+
+.A4{
+    position: relative;
+    left: 100px;
+    top: 1px;
+    width: 250px;
+}
+.poss-1{
+    position: relative;
+    top: 25px;
+}
+.poss-2{
+    position: relative;
+    top: 50px
+}
+.poss-3{
+    position: relative;
+    top: 75px
+}
+
+.C{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: blueviolet;
+    height: 50px;
+    width: 600px;
+    text-decoration: solid;
+    text-align: center;
+    padding-top: 35px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.D{
+    background-color: black;
+    position: relative;
+    top: 150px ;
+    left: 100px;
+    padding: 40px 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+    color: wheat;
+  }
+  .D:hover{
+      background-color: bisque;
+      color: black;
+      
+  }
+  .D:hover::before{
+    content: "Party Time";
+    
+  }
+ol{
+    background-color: rgb(185, 79, 211);
+    width: 250px;
+    position: relative;
+    top: 80px;
+    left: 300px;
+    border-radius: 10px;
+
+
+    
+}
+  li{
+      list-style: none;
+      color: #3c0840;
+      opacity: 100%;
+  }
+/* --------------------------------------------------------------- */
+.Before-F{
+    background-color: green;
+    position: absolute;
+    height: 100px;
+    width: 480px;
+    left: 835px;
+    bottom: 475px;
+    border-radius: 10px;
+    padding: 0px;
+    z-index: 2;
+
+}
+.Before-F1{
+    background-color: pink;
+    position: absolute;
+    height: 100px;
+    width: 343px;
+    left: 900px;
+    bottom: 465px;
+    border-radius: 10px;
+    padding: 0px;
+    z-index: 1;
+}
+
+
+
+
+.F{
+      background-color: white;
+      position: relative;
+      height: 100px;
+      width: 530px;
+      left: 800px;
+      bottom: 460px;
+      border-radius: 10px;
+      padding: 0px;
+      z-index: 3;
+
+  }
+  .F1{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    /* background-color: gray; */
+    padding: 20px 1px 20px 1px;
+    border-radius: 10px;
+ }
+
+  .F2{
+        position: relative;
+        top: 40px;
+        left: 40px;
+        background-color: gray;
+        padding: 35px 10px 35px 10px;
+        border-radius: 10px;
+     }
+
+  .F3{
+        position: relative;
+        top: 40px;
+        left: 60px;
+        /* background-color: gray; */
+        padding: 20px 1px 20px 1px;
+        /* border-radius: 10px; */
+     }
+     .F4{
+        position: relative;
+        top: 40px;
+        left: 80px;
+        background-color: gray;
+        padding: 35px 10px 35px 10px;
+        border-radius: 10px;
+     }
+     .F5{
+        position: relative;
+        top: 40px;
+        left: 100px;
+        /* background-color: gray; */
+        padding: 20px 1px 20px 1px;
+        /* border-radius: 10px; */
+     }
+     .F6{
+        position: relative;
+        top: 40px;
+        left: 115px;
+        background-color: gray;
+        padding: 35px 10px 35px 10px;
+        border-radius: 10px;
+     }
+     .F7{
+        position: relative;
+        top: 40px;
+        left: 150px;
+        background-color: gray;
+        padding: 35px 20px 35px 20px;
+        border-radius: 10px;
+     }
+/* ----------------------------------------------------------------- */
+
+.G{
+    background-color: white;
+    position: relative;
+    height: 30px;
+    width: 463px;
+    left: 800px;
+    bottom: 420px;
+    border-radius: 10px;
+    padding: 35px;
+    z-index: 3;
+    text-align: center;
+    color: #8E53F0;
+    font-size: 17px;
+
+}
+/* ------------------------------------------------------------ */
+.Rule{
+    position: relative;
+    bottom: 400px;
+    left: 800px;
+}
+
+/* -------------------------------------- */
+
+@media(max-width:1000px){
+    .A{
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        /* width: 100px; */
+    }
+
+    .A1{
+        position: absolute;
+        top: 130px;
+        left: 50px
+    }
+
+    .C{
+        position: absolute;
+        top: 450px;
+        left: 50px;
+        
+    }
+
+    .D{
+        position: absolute;
+        top: 550px;
+    }
+
+    ol{
+        position: absolute;
+        top: 550px;
+        left: 300px;
+    }
+
+
+
+
+    .F{
+        position: absolute;
+        bottom:  -100px;
+        left:80px;
+    }
+    .Before-F{
+        position: absolute;
+        top: 670px;
+        left: 105px;
+    }
+    .Before-F1{
+        position: absolute;
+        top: 680px;
+        left: 175px;
+    }
+    .G{
+        position: absolute;
+        top: 795px;
+        left: 80px; 
+    }
+
+    .Rule{
+        position: absolute;
+        top: 920px;
+        left: 80px;
+    }
+
+
+}
+    
