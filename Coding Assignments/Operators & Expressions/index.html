@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <!-- ----------------------- Quetion - 1 -----------------------
+
+        You are provided with two numbers A and B.
+        Your task is to add these two numbers.
+        
+        Note: You have to complete AddTwoNumbers function. No need to take any input.
+        
+        Input Format
+        The first line contains two integers A and B.
+        
+        Output Format
+        Return the result after adding two numbers.
+        
+        Constraints
+        1 ≤ A,B ≤ 500
+        
+        Time Limit
+        1 second
+        
+        Example
+        Sample Input
+        2 5
+        
+        Sample Output
+        7 -->
+
+        Answer ------------- 
+
+        const AddTwoNumbers = (a,b) => {
+    
+            return a+b;
+        };
+        
+    </div>
+
+    <div>
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <!---------------------- Question--2 ----------------->
+
+        You are given two number first as A and second as B and check if both conditions (A < 10 and A > B) are satisfied or not with the help of operators.
+        
+        Note: You have to complete Is_Valid function. No need to take any input.
+        
+        Input Format
+        The first line contains two integers 
+        A and B.
+        
+        Output Format
+        Return the result as true if the given condition gets satisfied, else false.
+        
+        Constraints
+        1 ≤ A , B ≤ 500
+        
+        Time Limit
+        1 second
+        
+        Example
+        Sample Input
+        5 3
+        
+        Sample Output
+        true
+
+        <!-- Answer  --------- -->
+
+        const Is_Valid = (a,b) => {
+            return a<10 && a>b
+          };
+     </div>
+
+     <div>
+         <!-- ----------------------------------------------------------------------------------------------------------------- -->
+<!------------------------------ Question --3 -------------------->
+        Check the conditons
+        You are given two numbers A and B
+        . You need to do the following checks:
+        
+        if both are divisible by 10 console true.
+        if both are not divisible by 10 console false.
+        if one of them only is divisible by 10 console true.
+        Use operator to do this.
+        
+        Note: You have to complete Check function. No need to take any input.
+        
+        Input Format
+        The first line contains two natural numbers
+        A and B .
+        
+        Output Format
+        Return the required result.
+        
+        Constraints
+        1 ≤ A , B ≤ 10000
+        
+        Time Limit
+        1 second
+        
+        Example
+        Sample Input
+        12 20
+        
+        Sample Output
+        true
+
+<!-- Answer---3 -->
+
+        const Check = (A, B) =>
+        {
+        if(A % 10 == 0 && B % 10 == 0 ){
+        return "true"
+        }
+
+        else if(A%10==0 || B%10==0){
+        return "true"
+        }
+        else{
+        return "false"
+        }
+        };
+
+</div>
+
+<div>
+    <!-- question--4 -->
+
+
+    const First_Digit = (n) => {
+
+    return (parseInt(n/1000))
+    };
+
+</div>
+
+<div>
+    <!-- question--5 -->
+
+    const Last_Digit = (n) => {
+
+    return(parseInt(n%10))
+    };
+
+</div>
+
+<div>
+    <!-- question--6 -->
+
+    const Find_the_remainder = (a,b) => {
+
+    return b%a
+
+    };
+
+
+</div>
+
+<div>
+    <!-- question--7 -->
+
+
+    const Multiply_two_number = (a,b) => {
+
+    return a*b
+
+    };
+
+</div>
+
+<div>
+    <!-- question--8 -->
+
+
+    const Sum = (A, B, C) => 
+    {
+      
+      return A+B+C ;
+     
+    };
+    
+    const Average = (A, B, C) => 
+    {
+     
+     return (A+B+C)/3 ;
+     
+    };
+
+</div>
+
+</body>
+
+</html>
