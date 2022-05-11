@@ -58,7 +58,7 @@ for(const[key,value] of Object.entries(apple)){
 }
 
 values = 23;//always give a keyword like let, const,var otherwise you  are creating a property to the window object
-console.log(value);
+// console.log(value);
 console.log(y=this)
 
 //spred operator
@@ -71,3 +71,14 @@ let arr3 = [...arr1,...arr2];
 console.log(arr3);
 
 //Create two students having properties as name, rollno, class, showDetails using Object Constructor.
+
+function Student(name1,class1,roll1){
+    this.name=name1;
+    this.class=class1;
+    this.roll=roll1;
+}
+let Student1 = new Student("Nitesh,10,21");
+let Student2 = new Student("kohi,11,21");
+
+console.log(Student1);
+console.log(Student2);
