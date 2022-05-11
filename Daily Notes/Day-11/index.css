@@ -1,0 +1,11 @@
+.class2{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 20px;
+    border-radius: 10px;
+}
+.class1{
+    display: flex;
+    flex-direction: row;
+}
