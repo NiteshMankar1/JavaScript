@@ -1,0 +1,13 @@
+/* flex box */
+.owner{
+    display: flex;
+    flex-direction: row;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 20px;
+    border-radius: 10px;
+}
